@@ -1,0 +1,42 @@
+    body {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0 2rem;
+        background-color: #242582;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 3rem;
+        padding-top: 1px;
+    }
+    
+    .sitelogo {
+        width: 32rem;
+        pointer-events: none;
+    }
+    
+    .sitelogo h1 {
+        font-size: 2rem;
+        font-family: sans-serif;
+        color: #fff;
+    }
+    
+    nav ul {
+        padding-right: 5em;
+    }
+    
+    nav ul li {
+        list-style: none;
+        display: inline-block;
+        align-self: center;
+        padding: 0 2em;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 18px;
+        font-family: sans-serif;
+    }
