@@ -14,3 +14,27 @@ const textLoad = () => {
 
 textLoad();
 setInterval(textLoad, 12000);
+
+function pageLoader1() {
+    window.open("https://github.com/limFakson")
+}
+
+function pageLoader2() {
+    window.open("https://github.com/limFakson")
+}
+
+function pageLoader3() {
+    window.open("https://github.com/limFakson")
+}
+
+function pageLoader4() {
+    window.open("https://github.com/limFakson")
+}
+
+function pageLoader5() {
+    window.open("https://github.com/limFakson")
+}
+
+function pageLoader6() {
+    window.open("https://github.com/limFakson")
+}
