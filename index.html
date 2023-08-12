@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DA</title>
+    <title>Frigles</title>
     <link rel="stylesheet" href="styleui.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
@@ -13,14 +13,15 @@
 <body>
     <header>
         <nav>
-            <h1>Heph<span id="ibah">zibah.</span></h1>
+            <h1>Lim<span id="ibah">fakson..</span></h1>
 
 
             <menu>
                 <ul>
-                    <li><a href="#secpage" class="m">About</a></li>
-                    <li><a href="#section2" class="m">Portfolio</a></li>
-                    <li><a href="#" class="m">Contact</a></li>
+                    <li><a href="#about" class="m">About</a></li>
+                    <li><a href="#skills" class="m">Skills</a></li>
+                    <li><a href="#portfolio" class="m">Portfolio</a></li>
+                    <li><a href="#contact" class="m">Contact</a></li>
 
                 </ul>
             </menu>
@@ -39,10 +40,10 @@
         <div class="slide">
             
             <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skillls">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>  
     </label>
@@ -51,23 +52,25 @@
 
     <section class="heroPage">
         <div class="article">
-            <h2><span id="fstWord">Hello</span> <span id="non">I'm Joshua Fakson</span></h2>
-            <h2 id="break">I'm Joshua Fakson</h2>
-            <h3>A Front end developer</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <h2><span id="fstWord">Hello</span> <span id="non">I'm Joshua Fakeye</span></h2>
+            <h2 id="break">I'm Joshua Fakeye</h2>
+            <h3>A <span id="write"></span></h3>
+            <p>welcome to my multiverse, where quality, uniqueness and creativity steads. I bring ideas to life</p>
         </div>
         <div id="heroImg">
-            <img src="images/IMG-20230807-WA0216-removebg-preview.png" alt="broken">
+            <img src="images/IMG_3931-removebg-preview.png" alt="broken">
         </div>
     </section>
-    <div class="secPage">
-        <h1>About Me</h1>
-        <p>I am a skilled front end developer and UI designer with extensive experience in creating visually apppealing design for a wide range of projects. My passion for creativity and attention to detail have helped me to deliver outstanding results consistently.
-            I am seeeking a challenging role in a dynamic organisation where i can utilize my skills and expertise to drive business growth.</p>
-        <a href="#"><button>Download Resume</button></a>
-    </div>
+    <section id="about">
+        <div class="secPage">
+            <h1>About Me</h1>
+            <p>I am a skilled front end developer and UI designer with extensive experience in creating visually apppealing design for a wide range of projects. My passion for creativity and attention to detail have helped me to deliver outstanding results
+                consistently. I am seeeking a challenging role in a dynamic organisation where i can utilize my skills and expertise to drive business growth.</p>
+            <a href="https://drive.google.com/file/d/1va0u83POCqM9FEf9yjm06hK0L8LvUaeW/view?usp=sharing"><button>Download Resume</button></a>
+        </div>
+    </section>
 
-    <section class="section2">
+    <section class="section2" id="skills">
         <div class="sechead">
             <h2>Skills & Interests</h2>
             <hr>
@@ -109,40 +112,58 @@
             <h2>Portfolio</h2>
             <hr>
         </div>
-        <section class="projects">
+        <section class="projects" id="portfolio">
 
             <div class="container">
-                <span class="projectsDetails">
+                <span class="projectsDetails" onclick="pageLoader(fst)">
                 <h3>Sushi foods</h3>
-                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
-                <p>Html . CSS</p>
+                <h5>This leads to sushi foods restaurant where the art of crafting exquisite sushi are been viewd amd ordered. 
+                    The home page where customers are been welcomed which to the menu page then to the non-functioning cart page.</h5>
+                <p>HTML • CSS</p>
                 </span>
             </div>
             <div class="container">
                 <span class="projectsDetails">
                 <h3>Newsletter</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <p>HTML . CSSS . Javascript</p>
+                <h5>This website was created on a mentors challenge, to create a newsletter subscribtion site that leads to a 
+                    thank you message page after the confirmation and validation of inputed email.</h5>
+                <p>HTML • CSS • Javascript</p>
             </span>
             </div>
             <div class="container">
-
                 <span class="projectsDetails">
                 <h3>News Homepage</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <h5>This website was created on a mentors challenge, to create a news homepage with reponsive menu
+                    page and web page.</h5>
+                <p>HTML • CSS • Javascript</p>
             </span>
             </div>
-            <div class="container">
-
+            <div class="container" onclick="pageLoader(frt)">
                 <span class="projectsDetails">
-                <h3>Piggy vest login page</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    </p>
+                <h3>Piggy-vest Signin page</h3>
+                <h5>A cloned Piggy-vest signin page website, It was asked to be made by my teacher while practicing html and css.</h5>
+                <p>HTML • CSS</p>
+            </span>
+            </div>
+            <div class="container" onclick="pageLoader(fif)">
+                <span class="projectsDetails">
+                <h3>UIUX Designs</h3>
+                <h5>This leads to a site where i stored my previous UIUX designs, which includes mobile apps and website
+                    with a few completed challenges styled in a mockup.</h5>
+                <p>Abobe XD • Photoshop • Mockup</p>
+            </span>
+            </div>
+            <div class="container" onclick="pageLoader(six)">
+                <span class="projectsDetails">
+                <h3>Graphics Design</h3>
+                <h5>This leads to a site where i stored my previous Graphics designs, which includes Flyers and logos
+                    with a few completed challenges styled in a mockup.</h5>
+                <p>Abobe Photoshop • Abobe illustrator • Canva • Mockup</p>
             </span>
             </div>
         </section>
     </div>
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="sechead">
             <h2>Contact Me</h2>
             <hr>
@@ -154,25 +175,27 @@
                     social media.</p>
                 <div class="infoicons">
                     <ul>
-                        <li><span><i class="fa fa-envelope-o"></i>youremail@email.com</span></li>
-                        <li><span><i class="fa fa-mobile"></i>+1234567890</span></li>
-
+                        <li><span><i class="fa fa-envelope-o"></i><a href="mailto:fakeyejoshua@email.com">fakeyejoshua@email.com</a></span></li>
+                        <li><span><i class="fa fa-mobile"></i> <a href="tel:+234-90-4118-9378">+234-90-4118-9378</a></span></li>
                     </ul>
                 </div>
             </div>
             <div class="connect">
                 <h1>Let's Connect</h1>
-                <p>You can also find me on various social media platforms. Don't hesitate to connect, follow, or message me:</p>
+                <p>You can also find me on various social media platforms. Don't hesitate to connect, follow, or message me</p>
                 <ul>
-                    <li><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                    <li><a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
-                    <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                    <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                    <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/joshua-opeyemi-679796235" aria-label="linkedin" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li><a href="https://wa.me/c/2349041189378" aria-label="whatsapp" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                    <li><a href="https://github.com/limFakson" aria-label="github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+
                 </ul>
             </div>
         </div>
     </section>
+    <footer>
+        <p>Designed by Fakson Joshua</p>
+    </footer>
 </body>
+<script src="./index.js"></script>
 
 </html>
