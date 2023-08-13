@@ -191,7 +191,7 @@
         padding: 0.4em 1em;
         margin: 0.5em;
         width: 25em;
-        height: 18em;
+        height: 18.6em;
         pointer-events: none;
     }
     
@@ -203,7 +203,7 @@
     .servicesList ul li {
         font-size: 15px;
         font-weight: 500;
-        padding-top: 1rem;
+        padding-top: 0.8rem;
     }
     
     .projects {
