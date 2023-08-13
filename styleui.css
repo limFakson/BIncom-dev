@@ -373,7 +373,9 @@
             text-transform: capitalize;
             text-decoration: none;
             transition: 0.2s ease-out;
-            margin-left: 8em;
+            display: flex;
+            justify-content: center;
+            margin-right: 2rem;
         }
         label input {
             display: none;
@@ -675,7 +677,9 @@
             text-transform: capitalize;
             text-decoration: none;
             transition: 0.2s ease-out;
-            margin-left: 14em;
+            display: flex;
+            justify-content: center;
+            margin-right: 2rem;
         }
         label input {
             display: none;
@@ -976,7 +980,9 @@
             text-transform: capitalize;
             text-decoration: none;
             transition: 0.2s ease-out;
-            margin-left: 14em;
+            display: flex;
+            justify-content: center;
+            margin-right: 2rem;
         }
         label input {
             display: none;
