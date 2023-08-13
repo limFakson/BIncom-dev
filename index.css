@@ -50,6 +50,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     margin: 1em;
+    justify-content: center;
 }
 
 .img {

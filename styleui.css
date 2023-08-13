@@ -386,8 +386,8 @@
             width: 30px;
             top: 25px;
             box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
-            left: 21em;
-            right: 0;
+            align-items: end;
+            right: 15px;
             z-index: 1;
             cursor: pointer;
             border-radius: 2px;
@@ -688,8 +688,8 @@
             width: 30px;
             top: 25px;
             box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
-            left: 28em;
-            right: 0;
+            right: 15px;
+            align-items: end;
             z-index: 1;
             cursor: pointer;
             border-radius: 2px;
@@ -989,8 +989,8 @@
             width: 30px;
             top: 25px;
             box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
-            left: 31em;
-            right: 0;
+            align-items: end;
+            right: 15px;
             z-index: 1;
             cursor: pointer;
             border-radius: 2px;
